@@ -45,6 +45,7 @@ img{
     left: 0%;
     width: 100%;
     height: auto;
+    padding-bottom: 50px;
 }
 .rudolph{
     position: absolute;
@@ -59,4 +60,8 @@ nav{
     top: 165px;
     width: auto;
     background-color: #0d2840;
+}
+.footer{
+    position: absolute;
+    bottom: 0%;
 }
