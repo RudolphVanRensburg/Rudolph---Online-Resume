@@ -140,7 +140,7 @@ nav{
     }
 
     .footer {
-        position: relative;
+        position: absolute;
         text-align: center;
     }
 }    
