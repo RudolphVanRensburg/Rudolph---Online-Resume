@@ -1,5 +1,9 @@
 html{
+    height: 100%;
+}
+body{
     background-color: #d6e8f4 !important;
+    min-height: 100vh !important;
 }
 h1{
     font-size: 3em;
@@ -46,7 +50,7 @@ nav a{
     position: absolute;
     left: 0%;
     width: 100%;
-    min-height: 100vh;
+    
     padding-bottom: 50px;
 }
 
