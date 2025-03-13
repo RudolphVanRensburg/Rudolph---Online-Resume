@@ -39,10 +39,11 @@ nav a{
     position: absolute;
     margin-top: 10px;
 }
-
+body{
+    background-color: #d6e8f4 !important;
+}
 .content{
     position: absolute;
-    background-color: #d6e8f4;
     left: 0%;
     width: 100%;
     min-height: auto;
