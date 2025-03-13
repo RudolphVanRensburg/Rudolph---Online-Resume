@@ -107,7 +107,7 @@ nav{
         position: relative;
         top: 180px;
         padding-bottom: 30px;
-        min-height: calc(100vh - 180px);
+        min-height: 100vh;
     }
     nav {
         top: 130px;
