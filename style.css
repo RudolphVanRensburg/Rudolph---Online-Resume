@@ -1,3 +1,6 @@
+html{
+    background-color: #d6e8f4 !important;
+}
 h1{
     font-size: 3em;
     color: white;
@@ -38,9 +41,6 @@ nav a{
 #side_content{
     position: absolute;
     margin-top: 10px;
-}
-body{
-    background-color: #d6e8f4 !important;
 }
 .content{
     position: absolute;
