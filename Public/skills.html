@@ -7,25 +7,29 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
-        <div class="head">
+        <Div class="wrapper">
             <div class="container">
-                <div class="row">
-                    <img class="rudolph_img col-3" src="../Images/Rudolph.jpg" alt="Rudolph van Rensburg's photo"/>
-                    <div class="col-9 mt-5 mb-2">
-                        <h1 class="fw-bold" style="color: white;">My Skills</h1><br>
-                        <button type="button" class="btn btn-outline-light"><a href="../index.html" style="text-decoration: none; color: inherit;">Home</a></button>
-                        <button type="button" class="btn btn-outline-light"><a href="./about me.html" style="text-decoration: none; color: inherit;">About Rudolph</a></button>
-                        <button type="button" class="btn btn-outline-light"><a href="./edu.html" style="text-decoration: none; color: inherit;">Education</a></button>
-                        <button type="button" class="btn btn-outline-light"><a href="./experience.html" style="text-decoration: none; color: inherit;">Work Experience</a></button>
-                        <button type="button" class="btn btn-outline-light"><a href="../index.html#connect" style="text-decoration: none; color: inherit;">Contact Me</a></button></div>
-                </div>            
-            </div> 
-          
-            <div class="container">
-                <div class="content pt-3">
-                    <h2>Skills</h2>
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img class="profile" src="/Images/Rudolph Animated.jpg" alt="Rudolph Animated">
+                    <span class="fs-4 ps-2">Rudolph van Rensburg</span>
+                  </a>
+            
+                  <ul class="nav gap-2">
+                    <li class="btn btn-outline-info px-0"><a href="/index.html" class="nav-link active " aria-current="page" style="text-decoration: none; color: inherit;">Home</a></li>
+                    <li class="btn btn-outline-info px-0"><a href="/Public/about me.html" class="nav-link active" aria-current="page" style="text-decoration: none; color: inherit;">About Rudolph</a></li>
+                    <li class="btn btn-outline-info px-0"><a href="/Public/edu.html" class="nav-link active" aria-current="page" style="text-decoration: none; color: inherit;">Education</a></li>
+                    <li class="btn btn-outline-info px-0"><a href="/Public/experience.html" class="nav-link active" aria-current="page" style="text-decoration: none; color: inherit;">Work Experience</a></li>
+
+                  </ul>
+                </header>
+              </div>
+              <div class="container">
+                <div class="row g-5">
+                  <div class="col-12" >  
+                    <h2>My Skills</h2>
                     <br>
-                    <h3 style="margin-left: 68px; margin-right: 68px;">Hard Skils</h3>        
+                    <h3>Hard Skils</h3>        
                         <h4>Technical skills – BSc IT</h4>
                                 <ul>
                                     <li>Web development: HTML, CSS, Javascript, WordPress, Content Management Systems (CMS)</li>
@@ -102,13 +106,49 @@
                                     <li>I believe that my strong Emotional Intelligence skills plays a big part in my ability to work with people.</li>
                                     <li>Integrity and authenticity are important to me.</li>
                                     <li>I do what I can to continue to improve and be the best I can be at whatever I do!</li>
-                                </ul>
+                                </ul>                                                  
+                  
+                    <div class="container">
+                        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                          <div class="col-md-4 d-flex align-items-center">
+                            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                            <img class="profile" src="/Images/Rudolph Animated.jpg" alt="Rudolph Animated">
+                            </a>
+                            <span class="mb-3 mb-md-0 text-body-secondary">© Rudolph van Rensburg. All rights reserved.</span>
+                          </div>                    
+                          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                            <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/rudolph-van-rensburg-a744581b1"><img src="/Images/SVG/linkedin.svg" alt="LinkedIn" title="Visit LinkedIn" height="30px"></a></li>
+                            <li class="ms-3"><a class="text-body-secondary" href="https://github.com/RudolphVanRensburg"><img src="/Images/SVG/github.svg" alt="GitHub"title="Visit GitHub" height="30px"></a></li>
+                            <li class="ms-3"><a class="text-body-secondary" href="/Documents/Rudolph CV.pdf" target="_blank"><img src="/Images/SVG/file-text.svg" alt="CV" title="Download CV" height="30px"></a></li>
+                          </ul>
+                        </footer>
+                    </div>
+              </footer>    
+        </Div> 
+        <!--<div class="head">
+            <div class="container">
+                <div class="row">
+                    <img class="rudolph_img col-3" src="../Images/Rudolph.jpg" alt="Rudolph van Rensburg's photo"/>
+                    <div class="col-9 mt-5 mb-2">
+                        <h1 class="fw-bold" style="color: white;">My Skills</h1><br>
+                        <button type="button" class="btn btn-outline-light"><a href="../index.html" style="text-decoration: none; color: inherit;">Home</a></button>
+                        <button type="button" class="btn btn-outline-light"><a href="./about me.html" style="text-decoration: none; color: inherit;">About Rudolph</a></button>
+                        <button type="button" class="btn btn-outline-light"><a href="./edu.html" style="text-decoration: none; color: inherit;">Education</a></button>
+                        <button type="button" class="btn btn-outline-light"><a href="./experience.html" style="text-decoration: none; color: inherit;">Work Experience</a></button>
+                        <button type="button" class="btn btn-outline-light"><a href="../index.html#connect" style="text-decoration: none; color: inherit;">Contact Me</a></button></div>
+                </div>            
+            </div> 
+          
+            <div class="container">
+                <div class="content pt-3">
+                    
+        
                         <div class="footer">
                             <p>© Rudolph van Rensburg. All rights reserved.</p>
                         </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
