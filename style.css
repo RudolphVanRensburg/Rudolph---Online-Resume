@@ -6,7 +6,6 @@
     border-radius: 20%;
 }
 footer{
-    position: fixed;
     bottom: 0;
-    background-color: aqua;
+    background-color: yellow;
 }
